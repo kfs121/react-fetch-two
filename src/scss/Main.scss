@@ -1,0 +1,33 @@
+main{
+  margin: 40px 0 !important;
+  // *{outline: 1px dotted red;}
+  .inner{
+    padding: 3rem !important; box-sizing: border-box;
+
+    ul{
+      display: flex; flex-direction: column;
+      
+
+      li{
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        text-align: left;
+
+        .email{
+          flex: 0 0 200px;
+          overflow-x: hidden;
+          margin-left: 1rem;
+        }
+        .name{
+          flex:9;
+          margin-left: 1rem;
+          padding-left: 2rem;
+          border-left: 2px solid #ccc;
+          box-sizing: border-box;
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.App{
+  text-align: center;
+  background-color: aliceblue;
+
+  padding: 40px 0;
+
+  .inner{
+    width: 1200px; margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 0;
+  }
+
+  .marginCollFix::after,
+  .marginCollFix::before{
+    display: table; content: "";
+  }
+
+}
